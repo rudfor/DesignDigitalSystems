@@ -1,0 +1,53 @@
+{signal: [
+  {name: 'clk', 		wave: 'P.......|..'},
+  {name: 'x1' , 		wave: '0.1.....|..'},
+
+
+  {name: 'X1' , 		wave: '0.1.....|..'},
+  {name: 'X2, X3, X4' , wave: '1.......|..'},
+  {name: 'a' , 			wave: '1..0....|..'},
+  {name: 'b' , 			wave: '1..01...|..'},
+  {name: 'c' , 			wave: '0...1...|..'},
+  {name: 'd' , 			wave: '1....0..|..'},
+  {name: 'f' , 			wave: '0...101.|..'},
+  {},
+  {},
+  {name: 'dat', 		wave: 'x.345x..|=x', data: ['head', 'body', 'tail', 'data']},
+  {name: 'req', 		wave: '0.1..0..|10'},
+  {name: 'ack', wave: '1.......|01'}
+],
+head:{
+   text:'Design of Digital Systems',
+   tick:0,
+ },	
+head:{
+   text:['tspan', {class:'info h3'}, 'Design of Digital Systems',['tspan', {dy:'-7'}, ' 2021']],
+   tick:0,
+ },	
+ foot:{
+   text:'example 1',
+   tock:9
+ },
+foot: {text:
+  ['tspan', 'group 3',
+    ['tspan', {dy:'-5'}, '2'],
+    ['tspan', {dy: '5'}, '. '],
+    ['tspan', {'font-size':'25'}, 'B '],
+    ['tspan', {'text-decoration':'overline'},'over '],
+    ['tspan', {'text-decoration':'underline'},'under '],
+    ['tspan', {'baseline-shift':'sub'}, 'sub '],
+    ['tspan', {'baseline-shift':'super'}, 'super ']
+  ],tock:9
+},
+foot: {text:
+  ['tspan', '',
+    ['tspan', {'text-decoration':'overline'},'GROUP 3'],
+  ],tock:9
+},
+foot:{
+    text:["tspan",
+     ["tspan","GROUP 3 [2021]"],
+       ["tspan",{dx:-135,dy:'1.4em', 'text-decoration':'overline'},"Member A and Member B"]
+   ], tock:9
+ }
+}
